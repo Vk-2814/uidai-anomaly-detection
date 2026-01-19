@@ -92,7 +92,7 @@ This hybrid approach achieves **94.1% accuracy** while maintaining a low **2.8% 
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/YOUR_USERNAME/uidai-anomaly-detection.git
+git clone https://github.com/Vk-2814/uidai-anomaly-detection.git
 cd uidai-anomaly-detection
 
 # 2. Create virtual environment (recommended)
@@ -113,12 +113,12 @@ pip install -r requirements.txt
 ```bash
 # Place your CSV files in data/ folder
 # Then run the complete pipeline:
-python run_complete_pipeline.py
+python run_all.py
 
 # Or merge multiple files first:
 python merge_hackathon_data.py
 # Then run:
-python run_complete_pipeline.py
+python run_all.py
 ```
 
 ### View Results
@@ -141,7 +141,7 @@ uidai-anomaly-detection/
 ├── 📄 requirements.txt                 ← Python dependencies
 ├── 📄 .gitignore                       ← Git ignore rules
 │
-├── 📄 run_complete_pipeline.py         ← Main execution script
+├── 📄 run_all.py         ← Main execution script
 ├── 📄 merge_hackathon_data.py          ← Multi-file merger utility
 │
 ├── 📁 code/                            ← Core Python modules
